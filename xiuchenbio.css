@@ -1,0 +1,48 @@
+/*!
+
+Feito pela Mint usando jQuery para o fansite 99n21. 
+Made by Mint using jQuery for the fansite 99n21.
+
+Versão 1.0 - XiuChen
+
+* Copyright jQuery Foundation and other contributors
+
+ */
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+    font-family: 'Vidaloka', serif; /*fonte do menu*/
+	font-size: 1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+    font-family: 'Vidaloka', serif; /*fonte do menu*/
+	font-size: 1em;
+}
+.ui-widget.ui-widget-content {
+	border: 1px solid #0b6243;
+}
+.ui-widget-content {
+	border: 1px solid #171717;
+	background: #7fd9ff;
+	color: #333333;
+}
+.ui-widget-content a {
+	color: #333333;
+}
+.ui-widget-header {
+	border: 1px solid #000;
+	background: #171717;
+	color: #333333;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #333333;
+}
