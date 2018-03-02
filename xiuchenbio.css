@@ -1,48 +1,103 @@
-/*!
+  /*---------------------style tab - INICIO-----------------!*/   
+   .ui-tabs-vertical
+   {
+   width: 60em;
+   }
+   
+   .ui-tabs-vertical .ui-tabs-nav 
+   {
+    padding: 0em .0em .0em .0em; float: left; width: 15em; 
+      background: #7fd9ff; /*cor do fundo da caixa do menu*/
+   }
+   
+   .ui-tabs-vertical .ui-tabs-nav li 
+   {
+    clear: left;
+    width: 100%; 
+    border-bottom-width:  !important; 
+    border-right-width: !important;
+    margin: -3px; 
+    }
+    
+   .ui-tabs-vertical .ui-tabs-nav li a {
+    display:inline-block;
+    }
+    
+   .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active
+   {
+      background: #7fd9ff; /*cor do fundo da caixa do menu*/
+	color: #0b6143;
 
-Feito pela Mint usando jQuery para o fansite 99n21. 
-Made by Mint using jQuery for the fansite 99n21.
-
-Versão 1.0 - XiuChen
-
-* Copyright jQuery Foundation and other contributors
-
- */
-
-
-/* Component containers
-----------------------------------*/
-.ui-widget {
+    }
+    
+   .ui-tabs-vertical .ui-tabs-panel 
+   {
+    padding: .3em; /*posição dis textos*/
+    float: right; 
+    width: 30em;}
+   
+   
+   .ui-widget {
     font-family: 'Vidaloka', serif; /*fonte do menu*/
-	font-size: 1em;
-}
-.ui-widget .ui-widget {
-	font-size: 1em;
-}
-.ui-widget input,
-.ui-widget select,
-.ui-widget textarea,
-.ui-widget button {
+   font-size: 1em;
+   bacground: #f8de7d;
+   }
+   .ui-widget .ui-widget {
+   font-size: 1em;
+   }
+   .ui-widget input,
+   .ui-widget select,
+   .ui-widget textarea,
+   .ui-widget button {
     font-family: 'Vidaloka', serif; /*fonte do menu*/
-	font-size: 1em;
-}
-.ui-widget.ui-widget-content {
-	border: 1px solid #0b6243;
-}
-.ui-widget-content {
-	border: 1px solid #171717;
-	background: #7fd9ff;
-	color: #333333;
-}
-.ui-widget-content a {
-	color: #333333;
-}
-.ui-widget-header {
-	border: 1px solid #000;
-	background: #171717;
-	color: #333333;
-	font-weight: bold;
-}
-.ui-widget-header a {
-	color: #333333;
-}
+   font-size: 1em;
+   }
+   .ui-widget.ui-widget-content {
+   border: 10px solid #7Fd9ff; /*borda da caixa grande*/
+   }
+   .ui-widget-content {
+   background: #2f2f2f;
+   color: #7fd9ff;
+   }
+   .ui-widget-content a {
+   }
+   .ui-widget-header {
+   border:10px solid #e1e1e1;
+   background: ;
+   font-weight: bold;
+   }
+   .ui-widget-header a { }
+     
+   /*wishlist by i-nsegur-a exclusive [ connection html ] se usar credite —✱—*/ 
+   #wish2{
+   text-transform:uppercase;/* nao mexa  */
+   display : block;/* nao mexa  */
+   font-size: 8px;/* tamanho da fonte */
+   font-family:PF Arma Five;/* nome da fonte */
+   line-height: 25px; /* nao mexa  */
+   text-indent : 5px; /* nao mexa  */
+   vertical-align : middle; /* nao mexa  */
+   background:#141414;/* cor do bg */
+   text-align:left; /* alinhamento do texto */
+   -webkit-transition-duration: .80s;;/* nao mexa  */
+   margin-bottom:1px;/* nao mexa  */
+   padding-left:5px;/* nao mexa  */
+   color:#fff;/* cor do texto */
+   border-left:4px solid #9182c3;/* cor da borda */
+   box-shadow: inset 4px 0px 0px #cbc1e8;/* cor da borda 2 */
+   }
+   
+   #wish2:hover {
+   vertical-align : middle;/* nao mexa  */
+   text-align:left;/* alinhamento do texto */
+   -webkit-transition-duration: .80s;/* nao mexa  */
+   color:#fff;/* cor do texto hover */
+   text-shadow:0px 0px 0px #aaa;/* nao mexa  */
+   background: #f6ccae /* « cor do bg */ ;
+   padding-left:15px;/* nao mexa  */
+   box-shadow: inset 3000px 0px 0px #cbc1e8;/* cor do bg hover */
+   border-left:10px solid #9182c3;/* cor da borda hover */
+   border-right:10px solid #9182c3;/* cor da borda hover */
+   }
+   
+   
